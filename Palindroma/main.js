@@ -17,8 +17,6 @@ function checkPalindroma(word) {
 
     wordNoSpace = String(word).replace(/\s+/g, '');
 
-    console.log(reverseWord);
-    // console.log(word);
 
     // Confronto se la parola inserita e quella capovolta sono uguali
     if (wordNoSpace.toUpperCase() == reverseWord.toUpperCase()) {
